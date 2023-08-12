@@ -1,0 +1,205 @@
+/* 1300 */
+/* 1200 */
+/* 992 */
+/* 768 */
+/* 576 */
+/* 320 */
+
+@media(max-width: 1109px) {
+
+    .main__left {
+
+        height: 467px;
+
+    }
+
+    .main__right-item {
+
+        height: 226px;
+        width: 201px;
+
+    }
+
+    .main__right {
+
+        gap: 10px;
+
+    }
+
+    .main__content .container {
+
+        gap: 10px;
+
+    }
+
+}
+
+@media(max-width: 991px) {
+
+    .main__content .container {
+
+        flex-wrap: wrap;
+
+    }
+
+    .main__left {
+
+        margin: 0 auto;
+
+    }
+
+    .nav .container {
+
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .nav {
+
+        padding: 15px 0;
+
+    }
+
+    .link {
+
+        font-size: 14px;
+
+    }
+
+    .main__right-item {
+
+        width: 361px;
+
+    }
+
+    .main__right {
+
+        display: flex;
+        justify-content: space-evenly;
+        gap: 15px;
+
+    }
+
+    .footer .container {
+
+        justify-content: space-evenly;
+        gap: 20px;
+
+    }
+
+    .footer__right {
+
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+
+    }
+
+}
+
+@media(max-width: 766px) {
+
+    .main__right-item {
+
+        width: 49%;
+
+    }
+
+    .main__right {
+
+        gap: 10px;
+
+    }
+
+    .list {
+
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+
+    }
+
+    .link {
+
+        padding: 13px 12px;
+        font-size: 12px;
+
+    }
+
+    .footer .container {
+
+        flex-direction: column;
+
+    }
+
+}
+
+@media(max-width: 567px) {
+
+    .main__left {
+
+        width: 290px;
+        height: 345px;
+
+    }
+
+    .photo {
+
+        width: 100%;
+
+    }
+
+    .main__left-text {
+
+        display: -webkit-box;
+        -webkit-line-clamp: 5;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+
+    }
+
+    .main__right {
+
+        gap: 5px;
+
+    }
+
+    .main__right-item {
+
+        padding: 8px;
+
+    }
+
+    .main__right-title {
+
+        font-size: 16px;
+
+    }
+
+    .main__right-text {
+
+        font-size: 13px;
+
+    }
+
+    .footer .container {
+
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .footer__form {
+
+        width: 82%;
+
+    }
+
+    .footer__right {
+
+        gap: 25px;
+
+    }
+
+}
